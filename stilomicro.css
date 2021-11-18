@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+main{
+	width: 100%;
+	height: 1700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E5C6FA;
+}
+header{
+	width: 100%;
+	height:100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	position: fixed;
+}
+nav{
+	width: 70%;
+	height: 100px;
+	text-align: right;
+	float: right;
+}
+section{
+	width: 100%;
+	height: 500px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both; 
+}
+embed{
+	width: 50%;
+	height: 400px;
+	margin-right: 25%;
+	margin-left: auto;
+	margin-top: auto;
+}
+html{
+	scroll-behavior: smooth;
+}
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30pt;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+#menu{
+	width: 90%;
+	float: right;
+}
+#menu li {
+	display: inline;
+}
+#menu li a {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	float: right;
+	padding-top: 3%;
+	margin-right: 7%;
+	border-radius: 10px;
+	color: #FFFFFF;
+	
+}
+#relevamiento hover{
+	background-color: black;
+}
+#galeria hover{
+	background-color: black;
+}
+#diseño hover{
+	background-color: black;
+}
+#ezmasa{
+	width: 25%;
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+}
+.ezma{
+	text-decoration: none;
+	color: white;
+}
+.fua{
+	width: 100%;
+	height: 100px;
+}
+.wire{
+
+}
+
+
+
+
+
+
+}
+@media (min-width: 576px) and (max-width: 768px) {
+main{
+	width: 100%;
+	height: 1700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E5C6FA;
+}
+header{
+	width: 100%;
+	height:100px;
+	background-color: black;
+	position: fixed;
+}
+nav{
+	float: right;
+	text-align: right;
+	width: 70%;
+	height: 100px;
+	margin-top: 2%;
+}
+section{
+	width: 100%;
+	height: 600px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	clear: both; 
+}
+html{
+	scroll-behavior: smooth;
+}
+embed{
+	width: 100%;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1%;
+}
+#menu{
+	width: 80%;
+}
+#menu li {
+	display: inline;
+}
+#menu li a {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	float: right;
+	padding-top: 3%;
+	margin-right: 7%;
+	border-radius: 10px;
+	color: #FFFFFF;
+	
+}
+
+#relevamiento hover{
+	background-color: black;
+}
+#wireframe hover{
+	background-color: black;
+}
+#diseño hover{
+	background-color: black;
+}
+#ezmasa{
+	width: 25%;
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+}
+.ezma{
+	text-decoration: none;
+	color: white;
+}
+.fua{
+	width: 100%;
+	height: 100px;
+	display: none;
+}
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 992) {
+	main{
+	width: 100%;
+	height: 1900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E5C6FA;
+}
+header{
+	width: 100%;
+	height:100px;
+	background-color: black;
+	position: fixed;
+}
+nav{
+	float: right;
+	text-align: right;
+	width: 70%;
+	height: 100px;
+	margin-top: 2%;
+}
+section{
+	width: 100%;
+	height: 600px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	clear: both; 
+}
+html{
+	scroll-behavior: smooth;
+}
+embed{
+	width: 100%;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1%;
+}
+#menu{
+	width: 80%;
+}
+#menu li {
+	display: inline;
+}
+#menu li a {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	float: right;
+	padding-top: 3%;
+	margin-right: 7%;
+	border-radius: 10px;
+	color: #FFFFFF;
+	
+}
+
+#relevamiento hover{
+	background-color: black;
+}
+#wireframe hover{
+	background-color: black;
+}
+#diseño hover{
+	background-color: black;
+}
+#ezmasa{
+	width: 25%;
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+}
+.ezma{
+	text-decoration: none;
+	color: white;
+}
+.fua{
+	width: 100%;
+	height: 100px;
+	display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+main{
+	width: 100%;
+	height: 1900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E5C6FA;
+}
+header{
+	width: 100%;
+	height:100px;
+	background-color: black;
+	position: fixed;
+}
+nav{
+	float: right;
+	text-align: right;
+	width: 70%;
+	height: 100px;
+	margin-top: 2%;
+}
+section{
+	width: 100%;
+	height: 600px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	clear: both; 
+}
+html{
+	scroll-behavior: smooth;
+}
+embed{
+	width: 80%;
+	height: 500px;
+	margin-right: 15%;
+	margin-left: auto;
+	margin-top: 1%;
+}
+#menu{
+	width: 80%;
+}
+#menu li {
+	display: inline;
+}
+#menu li a {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	float: right;
+	padding-top: 3%;
+	margin-right: 7%;
+	border-radius: 10px;
+	color: #FFFFFF;
+	
+}
+
+#relevamiento hover{
+	background-color: black;
+}
+#wireframe hover{
+	background-color: black;
+}
+#diseño hover{
+	background-color: black;
+}
+#ezmasa{
+	width: 25%;
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+}
+.ezma{
+	text-decoration: none;
+	color: white;
+}
+.fua{
+	width: 100%;
+	height: 100px;
+	display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1400) {
+main{
+	width: 100%;
+	height: 1700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E5C6FA;
+}
+header{
+	width: 100%;
+	height:100px;
+	background-color: black;
+	position: fixed;
+}
+nav{
+	float: right;
+	text-align: right;
+	width: 70%;
+	height: 100px;
+	margin-top: 2%;
+}
+section{
+	width: 100%;
+	height: 600px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	clear: both; 
+}
+html{
+	scroll-behavior: smooth;
+}
+embed{
+	width: 60%;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1%;
+	position: static;
+}
+#menu{
+	width: 80%;
+}
+#menu li {
+	display: inline;
+}
+#menu li a {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	float: right;
+	padding-top: 3%;
+	margin-right: 7%;
+	border-radius: 10px;
+	color: #FFFFFF;
+	
+}
+
+#relevamiento hover{
+	background-color: black;
+}
+#wireframe hover{
+	background-color: black;
+}
+#diseño hover{
+	background-color: black;
+}
+#ezmasa{
+	width: 25%;
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+}
+.ezma{
+	text-decoration: none;
+	color: white;
+}
+.fua{
+	width: 100%;
+	height: 100px;
+	display: none;
+}
+}
+
+
+}
+
+
+@media (min-width: 1400px) and (max-width: 1750px) {
+
+	main{
+	width: 100%;
+	height: 1700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E5C6FA;
+}
+header{
+	width: 100%;
+	height:100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	position: fixed;
+}
+nav{
+	width: 70%;
+	height: 100px;
+	text-align: right;
+	float: right;
+}
+section{
+	width: 100%;
+	height: 500px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both; 
+}
+embed{
+	width: 50%;
+	height: 400px;
+	margin-right: 25%;
+	margin-left: auto;
+	margin-top: auto;
+}
+html{
+	scroll-behavior: smooth;
+}
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30pt;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+#menu{
+	width: 90%;
+	float: right;
+}
+#menu li {
+	display: inline;
+}
+#menu li a {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	float: right;
+	padding-top: 3%;
+	margin-right: 7%;
+	border-radius: 10px;
+	color: #FFFFFF;
+	
+}
+#relevamiento hover{
+	background-color: black;
+}
+#galeria hover{
+	background-color: black;
+}
+#diseño hover{
+	background-color: black;
+}
+#ezmasa{
+	width: 25%;
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+}
+.ezma{
+	text-decoration: none;
+	color: white;
+}
+.fua{
+	width: 100%;
+	height: 100px;
+}
+
+
+
+
+}
+
